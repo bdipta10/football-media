@@ -289,6 +289,7 @@ form button{
 
 /* Responsive for mobile screen */
 @media only screen and (max-width:480px) {
+    /* Top Banner responsive for mobile  */
     .top-banner {
         flex-direction: column;
         margin-bottom: 47px;
@@ -322,6 +323,8 @@ form button{
         margin: auto;
     }
 
+    /* Player section responsive for mobile  */
+
     .player-album {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -334,7 +337,7 @@ form button{
         height: 256px;
         margin-bottom: 16px;
     }
-
+    /* Video gallary responsive for mobile */
     .video-gallary {
         margin: 20px;
     }
@@ -353,6 +356,7 @@ form button{
         height: 200px;
     }
 
+    /* Contact section responsive for mobile*/
     .contact-section {
         background-color: #2c3e50;
         display: flex;
@@ -367,6 +371,8 @@ form button{
     .wrapper {
         width: 300px;
     }   
+
+    /* Footer section logo size reduce */
 
     .logo img {
         width: 300px;
