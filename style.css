@@ -85,33 +85,36 @@ body {
     margin-bottom: 33px;
 }
 
+/* Video Gallary */
+
 .video-gallary {
-    margin-left: auto;
-    margin-right: auto;
+    padding: 40px;
+    margin: 100px;
+    width: 0 auto;
+    box-sizing: border-box;
     box-shadow: 0 0 4px 2px gray;
 }
 
 .video-gallary header {
     font-size: 2.5em;
     font-weight: 600;
-    margin-left: 40px;
+    margin-left: 25px;
 }
 
 .video-gallary hr {
     width: 95%;
-    margin: auto;
-}
+    margin: auto; 
+    margin-bottom: 30px;
+} 
 
 .videos {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 40px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .video iframe {
-    height: 300px;
-    width: 400px;
-    
+    height: 250px;
+    width: 350px;
 }
 
 /* Contact Section Mutual Part*/
@@ -332,17 +335,22 @@ form button{
         margin-bottom: 16px;
     }
 
+    .video-gallary {
+        margin: 20px;
+    }
+
     .videos {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        margin: 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .video {
+        margin-bottom: 20px;
     }
 
     .video iframe {
-        width: 329px;
-        height: 259.17px;
-        margin-left: auto;
-        margin-right: auto;
+        width: 300px;
+        height: 200px;
     }
 
     .contact-section {
