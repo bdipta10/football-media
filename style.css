@@ -322,6 +322,7 @@ form button{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin: auto;
+        margin-left: 40px;
     } 
 
     .player-image img {
@@ -339,6 +340,8 @@ form button{
     .video iframe {
         width: 329px;
         height: 259.17px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .contact-section {
